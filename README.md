@@ -1,1 +1,26 @@
-# zshop
+<h1 align="center"> ZSHOP </h1>
+
+## IMPORTANT:
+
+This project was initiated using `Maven` from the terminal using the following command:
+```bash
+mvn archetype:generate \                                                                     
+  -DgroupId=com.zkrallah.zshop \
+  -DartifactId=zshop \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false
+```
+
+In order to run and test it, I also do this from the terminal using the following commands:
+```bash
+mvn clean compile
+java -classpath target/classes com.zkrallah.zshop.App
+```
+
+ No IDEs Were Used.
+
+ This entire project was built and managed without using any IDEs like IntelliJ IDEA, VS Code, Eclipse, or others. It was developed, run, and tested entirely within the terminal using [Neovim](https://neovim.io/) and **[nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls)** LSP.
+
+I didn’t have enough time to write proper unit tests, so I used randomized tests instead. Although it’s not the best approach, but it helped check that things work.
+
+See tests.md for some samples.
