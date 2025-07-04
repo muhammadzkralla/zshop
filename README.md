@@ -23,4 +23,8 @@ java -classpath target/classes com.zkrallah.zshop.App
 
 I didn’t have enough time to write proper unit tests, so I used randomized tests instead. Although it’s not the best approach, but it helped check that things work.
 
-See tests.md for some samples.
+The random tests try to add 5 random products with random quantities from the inventory to the cart, and then checkout. See more in the [App.java](https://github.com/muhammadzkralla/zshop/blob/master/src/main/java/com/zkrallah/zshop/App.java) file.
+
+Also note that Some trade-offs are discussed in the code comments.
+
+See [tests.txt](https://github.com/muhammadzkralla/zshop/blob/master/tests.txt) for some samples.
