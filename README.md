@@ -23,14 +23,14 @@ java -classpath target/classes com.zkrallah.zshop.App
 
 I didn’t have enough time to write proper unit tests, so I used randomized tests instead. Although it’s not the best approach, but it helped check that things work.
 
-The random tests try to add 5 random products with random quantities from the inventory to the cart, and then checkout. See more in the [App.java](https://github.com/muhammadzkralla/zshop/blob/master/src/main/java/com/zkrallah/zshop/App.java) file.
-
 Also note that Some trade-offs are discussed in the code comments.
 
-See [tests.txt](https://github.com/muhammadzkralla/zshop/blob/master/tests.txt) for some samples.
+The random tests try to add 5 random products with random quantities from the inventory to the cart, and then checkout. See more in the [App.java](https://github.com/muhammadzkralla/zshop/blob/master/shop/src/main/java/com/zkrallah/zshop/App.java) file.
+
+See [test.sh](https://github.com/muhammadzkralla/zshop/blob/master/shop/test.sh) for some sample test cases.
 
 
-<h1 align="center"> ZSHOP </h1>
+<h1 align="center"> ZBOOKS </h1>
 
 ## IMPORTANT:
 
@@ -54,10 +54,19 @@ java -classpath target/classes com.zkrallah.zbooks.App
 
  This entire project was built and managed without using any IDEs like IntelliJ IDEA, VS Code, Eclipse, or others. It was developed, run, and tested entirely within the terminal using [Neovim](https://neovim.io/) and **[nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls)** LSP.
 
-I didn’t have enough time to write proper unit tests, so I used randomized tests instead. Although it’s not the best approach, but it helped check that things work.
+I didn’t write formal unit tests due to time constraints. Instead, a procedural testing method is used in GeneralTest.java to simulate:
+- Adding/removing books (with duplicate handling)
+- Buying shippable and mailable books
+- Failing transactions due to:
+  - Out-of-stock items
+  - Low customer balance
+  - Attempting to buy non-purchasable books
 
-The random tests try to add 5 random products with random quantities from the inventory to the cart, and then checkout. See more in the [App.java](https://github.com/muhammadzkralla/zshop/blob/master/src/main/java/com/zkrallah/zshop/App.java) file.
+- Removing outdated books based on expiration
+- Confirming that quantity updates persist correctly
 
 Also note that Some trade-offs are discussed in the code comments.
 
-See [tests.txt](https://github.com/muhammadzkralla/zshop/blob/master/tests.txt) for some samples.
+See the test entry point: [App.java](https://github.com/muhammadzkralla/zshop/blob/master/books/src/main/java/com/zkrallah/zbooks/App.java) file.
+
+See [test.sh](https://github.com/muhammadzkralla/zshop/blob/master/books/test.sh) for some sample test cases.
