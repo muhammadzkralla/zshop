@@ -1,4 +1,4 @@
-package com.zkrallah.zbooks.model;
+package com.zkrallah.zbooks.model.types;
 
 import com.zkrallah.zbooks.book.Book;
 import com.zkrallah.zbooks.book.Mailable;
