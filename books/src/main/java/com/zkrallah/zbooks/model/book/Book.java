@@ -3,6 +3,12 @@ package com.zkrallah.zbooks.model.book;
 public abstract class Book {
     private final String title;
     private final String isbn;
+
+    @Override
+    public String toString() {
+        return "Book [title=" + title + ", isbn=" + isbn + ", author=" + author + "]";
+    }
+
     private final String author;
     private final int publishYear;
     private final int expiryYear;
