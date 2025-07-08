@@ -1,4 +1,4 @@
-package com.zkrallah.zbooks.book;
+package com.zkrallah.zbooks.model.book;
 
 public abstract class Book {
     private final String title;
