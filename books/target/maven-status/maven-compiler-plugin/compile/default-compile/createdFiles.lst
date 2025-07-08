@@ -1,1 +1,13 @@
 com/zkrallah/zbooks/App.class
+com/zkrallah/zbooks/model/types/EBook.class
+com/zkrallah/zbooks/service/inventory/InventoryService.class
+com/zkrallah/zbooks/util/InventoryUtils.class
+com/zkrallah/zbooks/service/inventory/InventoryServiceImpl.class
+com/zkrallah/zbooks/test/GeneralTest.class
+com/zkrallah/zbooks/model/customer/Customer.class
+com/zkrallah/zbooks/model/types/PaperBook.class
+com/zkrallah/zbooks/factory/BookFactory.class
+com/zkrallah/zbooks/model/book/Book.class
+com/zkrallah/zbooks/model/types/DemoBook.class
+com/zkrallah/zbooks/model/book/Mailable.class
+com/zkrallah/zbooks/model/book/Shippable.class

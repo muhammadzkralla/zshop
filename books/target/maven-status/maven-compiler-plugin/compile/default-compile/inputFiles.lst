@@ -1,1 +1,13 @@
 /mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/App.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/factory/BookFactory.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/model/book/Book.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/model/book/Mailable.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/model/book/Shippable.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/model/customer/Customer.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/model/types/DemoBook.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/model/types/EBook.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/model/types/PaperBook.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/service/inventory/InventoryService.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/service/inventory/InventoryServiceImpl.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/test/GeneralTest.java
+/mnt/hdd/java_projects/zshop/books/src/main/java/com/zkrallah/zbooks/util/InventoryUtils.java
