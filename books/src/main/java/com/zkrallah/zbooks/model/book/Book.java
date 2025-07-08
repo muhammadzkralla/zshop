@@ -8,10 +8,11 @@ public abstract class Book {
     private final int expiryYear;
     private final double price;
     private final int pages;
+    private int quantity;
 
     public Book(final String title, final String isbn, final String author, final int publishYear, final int expiryYear,
             final double price,
-            final int pages) {
+            final int pages, final int quantity) {
         this.title = title;
         this.isbn = isbn;
         this.author = author;
@@ -19,6 +20,7 @@ public abstract class Book {
         this.expiryYear = expiryYear;
         this.price = price;
         this.pages = pages;
+        this.quantity = quantity;
     }
 
     public boolean isOutdated(final int currentYear) {
@@ -58,4 +60,13 @@ public abstract class Book {
     public int getPages() {
         return pages;
     }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
 }

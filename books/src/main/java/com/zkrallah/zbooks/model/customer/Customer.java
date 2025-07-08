@@ -7,12 +7,14 @@ public class Customer {
     // as it's a toy project
     private final String name;
     private double balance;
-    private String location;
+    private final String location;
+    private final String email;
 
-    public Customer(final String name, final double balance, final String location) {
+    public Customer(final String name, final double balance, final String location, final String email) {
         this.name = name;
         this.balance = balance;
         this.location = location;
+        this.email = email;
     }
 
     public String getName() {
@@ -31,8 +33,8 @@ public class Customer {
         return location;
     }
 
-    public void setLocation(final String location) {
-        this.location = location;
+    public String getEmail() {
+        return email;
     }
 
 }
