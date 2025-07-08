@@ -26,6 +26,11 @@ public class Customer {
     }
 
     public void setBalance(final double balance) {
+        if (balance < 0) {
+            System.out.println("Balance can not be negative!");
+            return;
+        }
+
         this.balance = balance;
     }
 

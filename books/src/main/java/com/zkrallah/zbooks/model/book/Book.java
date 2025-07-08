@@ -66,6 +66,11 @@ public abstract class Book {
     }
 
     public void setQuantity(int quantity) {
+        if (quantity < 0) {
+            System.out.println("Quantity can not be negative!");
+            return;
+        }
+
         this.quantity = quantity;
     }
 
