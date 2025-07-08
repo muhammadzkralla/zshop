@@ -31,6 +31,23 @@ public abstract class Book {
     // or might not be implemented
     public abstract boolean isPurchasable();
 
+    // Mark the ISBN as the unique identifier of a book
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null || getClass() != obj.getClass())
+            return false;
+
+        Book other = (Book) obj;
+        return isbn.equals(other.isbn);
+    }
+
+    @Override
+    public int hashCode() {
+        return isbn.hashCode();
+    }
+
     public String getTitle() {
         return title;
     }
