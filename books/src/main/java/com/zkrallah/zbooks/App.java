@@ -1,13 +1,9 @@
 package com.zkrallah.zbooks;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import com.zkrallah.zbooks.test.GeneralTest;
+
+public class App {
+    public static void main(String[] args) {
+        GeneralTest.test();
     }
 }
