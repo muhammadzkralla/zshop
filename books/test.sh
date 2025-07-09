@@ -1,4 +1,4 @@
-  books    master ⇡3 !4 ?10  mvn clean compile                                                                           ✔ 
+> mvn clean compile                                                                          
 Picked up JAVA_TOOL_OPTIONS: -javaagent:/home/zkrallah/.local/share/java/lombok.jar
 [INFO] Scanning for projects...
 [INFO] 
@@ -36,7 +36,7 @@ Picked up JAVA_TOOL_OPTIONS: -javaagent:/home/zkrallah/.local/share/java/lombok.
 [INFO] Finished at: 2025-07-08T20:44:29+03:00
 [INFO] ------------------------------------------------------------------------
 
-  books    master ⇡3 !4 ?10  java -classpath target/classes com.zkrallah.zbooks.App                               ✔  3s  
+> java -classpath target/classes com.zkrallah.zbooks.App                              
 Picked up JAVA_TOOL_OPTIONS: -javaagent:/home/zkrallah/.local/share/java/lombok.jar
 --------------CUSTOMER ONE TURN-----------------
 Book already exists in inventory.
