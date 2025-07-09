@@ -27,4 +27,4 @@ Also note that Some trade-offs are discussed in the code comments.
 
 The random tests try to add 5 random products with random quantities from the inventory to the cart, and then checkout. See more in the [App.java](https://github.com/muhammadzkralla/zshop/blob/master/shop/src/main/java/com/zkrallah/zshop/App.java) file.
 
-See [test.sh](https://github.com/muhammadzkralla/zshop/blob/master/shop/test.sh) for some sample test cases.
+See [test.sh](https://github.com/muhammadzkralla/zshop/blob/master/shop/test.txt) for some sample test cases.

@@ -37,4 +37,4 @@ Also note that Some trade-offs are discussed in the code comments.
 
 See the test entry point: [App.java](https://github.com/muhammadzkralla/zshop/blob/master/books/src/main/java/com/zkrallah/zbooks/App.java) file.
 
-See [test.sh](https://github.com/muhammadzkralla/zshop/blob/master/books/test.sh) for some sample test cases.
+See [test.sh](https://github.com/muhammadzkralla/zshop/blob/master/books/test.txt) for some sample test cases.
